@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arialsans-serif;
+    background: linear-gradient(#FA8072,#6495ED);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+#border{
+    border: 3px solid black;
+    background-color: white;
+    width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 3px 3px 4px 3px white;
+}
+.cover{
+    background-image: url(https://thumbs.dreamstime.com/b/sri-lanka-very-innocent-ants-very-friendly-very-quickly-248831038.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    position: relative;
+    
+}
+.avatar{
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right:610px;                                                        
+    trantransform:slate(-50%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 90px;
+    border:1px solid white;
+    border-radius: 90px;
+    height: 125px;
+    width: 125px;
+    padding:10px;
+    background-color: aliceblue;
+    box-shadow:1px 1px 6px 1px black ;
+    
+}
+.name{
+    padding: 70px 20px 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title{
+    font-size: 14px;
+    color: grey;
+    position: absolute;
+    top: 280px;
+    left: 650px;
+}
+.number{
+    color:green;
+    font-size: 25px;
+    position:absolute;
+    left: 550px;
+    top:325px ;
+}
+.ff{
+    color: grey;
+    position: absolute;
+    left:540px ;
+    top: 350px;
+}
+.number2{
+    color:green;
+    font-size: 25px;
+    position: absolute;
+    left: 770px;
+    top: 325px;
+}
+.fff2{
+    color: grey;
+    position: absolute;
+    left: 760px;
+    top: 350px;
+}
+.follow-btn{
+    background-color:#f8c471;
+    color: black;
+    font-size: larger;
+    font-family: serif;
+    padding: 12px 0;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 16px;
+    cursor: pointer;
+    position:absolute;
+    top: 400px;
+    left: 585px;
+}
+.follow-btn:hover{
+    background-color: #f0b27a;
+}
+p{
+    padding: 150px 20px 20px;
+    text-transform: capitalize;
+    font-family:sans-serif;
+}
